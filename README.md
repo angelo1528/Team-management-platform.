@@ -7,7 +7,7 @@ https://soccermanager11.netlify.app
 A full-stack web application designed for managing sports teams. The platform allows coaches and players to communicate, manage rosters, and organize schedules through a role-based system.
 
 ## Features
-- Role-based authentication (Coach vs Player)
+- Role-based authentication (Coach and Player)
 - Messaging system with real-time updates
 - Team and player management (CRUD operations)
 - Game scheduling with dynamic updates
@@ -22,9 +22,6 @@ A full-stack web application designed for managing sports teams. The platform al
 - Component-based React UI
 - Supabase handles database and authentication
 - Data fetched and managed using React hooks (useState, useEffect)
-
-## Live Demo
-https://soccermanager11.netlify.app/
 
 ## Log-in page
 <img width="921" height="838" alt="image" src="https://github.com/user-attachments/assets/d470600d-2e98-4307-8a78-f2731a6106b2" />
