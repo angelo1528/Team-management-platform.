@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Full-Stack Team Management Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
+https://soccermanager11.netlify.app
 
-## Available Scripts
+## Overview
+A full-stack web application designed for managing sports teams. The platform allows coaches and players to communicate, manage rosters, and organize schedules through a role-based system.
 
-In the project directory, you can run:
+## Features
+- Role-based authentication (Coach vs Player)
+- Messaging system with real-time updates
+- Team and player management (CRUD operations)
+- Game scheduling with dynamic updates
+- Secure data access using Supabase and Row Level Security (RLS)
 
-### `npm start`
+## Tech Stack
+- Frontend: React
+- Backend: Supabase (Database + Authentication)
+- Language: JavaScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Architecture
+- Component-based React UI
+- Supabase handles database and authentication
+- Data fetched and managed using React hooks (useState, useEffect)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo
+https://soccermanager11.netlify.app/
 
-### `npm test`
+## Log-in page
+<img width="921" height="838" alt="image" src="https://github.com/user-attachments/assets/d470600d-2e98-4307-8a78-f2731a6106b2" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Home page
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/ca6532c4-daeb-48fc-8d49-f9b1384bf446" />
 
-### `npm run build`
+## Roster page
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/00b44913-9ce7-4ec4-8c6b-7d0312a693c4" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## scheduling 
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/a4e2fa85-3c53-4ebb-a388-2e30f4844389" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Messaging
+<img width="1916" height="879" alt="image" src="https://github.com/user-attachments/assets/bc70a78c-9739-49bb-8f2a-b81f906f4753" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+Anyanwu Somtochukwu.
